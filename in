@@ -1,0 +1,29 @@
+4 2 2
+2 1 1 2
+0.3334 0.6667
+0.3334 0.6667
+0.2000 0.8000
+0.6667 0.3334
+0.2500 0.7500
+
+4 2 2
+2 1 1 1
+0.3334 0.6667
+0.3334 0.6667
+0.2000 0.8000
+0.6667 0.3334
+0.2500 0.7500
+
+possums = 1
+raccoon = 2
+
+T = length of sequence of observables
+K = size of set of all states
+N = size of set of all observables
+
+Size T sequence of 'observables' i : 1 <= i <= N
+Size K sequence of starting state probabilities
+K x K state probability transition matrix
+K x N emission matrix that maps states --> observables
+
+Output length T sequence of states j : 1 <= i <= K
