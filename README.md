@@ -1,6 +1,6 @@
 ## Viterbi Algorithm In a Competitive Programming Question Format
 
-*Exercise*: In California there are twice as many raccoons as possums. Having gotten a job with Google, you
+**Exercise**: In California there are twice as many raccoons as possums. Having gotten a job with Google, you
 are in California observing a back yard. It is dusk, so the probability that you think you saw a raccoon when
 you are actually looking at a possum at a distance is 1/3; the probability that you think you saw a possum while
 you are actually looking at a raccoon at a distance is 1/4. Raccoons move in packs; so if a raccoon comes to
