@@ -7,7 +7,7 @@ your back yard the probability that the next animal to follow will also be a rac
 animals, so if a possum comes to your back yard, this does not impact the probabilities what the next animal
 to come will be (a possum or a raccoon, but recall in California there are twice as many raccoons as possums!)
 You believe that you saw four animals coming in the following order: a raccoon, a possum, a possum, a raccoon
-(rppr). Given such a sequence of observations, what actual sequence of animals is most likely to cause such a
+(2112). Given such a sequence of observations, what actual sequence of animals is most likely to cause such a
 sequence of your observations?
 
 possum = 1
@@ -19,13 +19,13 @@ N = size of set of all observables
 
 Input: 
 - T,K,N
-- Y: length T array of 'observables' i : 1 <= i <= N
+- Y: length T array of 'observables' i (1 <= i <= N)
 - S: length K array of starting state probabilities
 - P: K x K transition matrix
 - E: K x N emission matrix that maps states --> observables
 
 Output:
-length T sequence of states j : 1 <= i <= K
+length T sequence of states j (1 <= j <= K) most likely to cause the sequence Y
 */
 
 #include <cstdio>
