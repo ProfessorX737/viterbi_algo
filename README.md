@@ -11,8 +11,7 @@ You believe that you saw four animals coming in the following order: a raccoon, 
 (2112). Given such a sequence of observations, what actual sequence of animals is most likely to cause such a
 sequence of your observations?
 
-possum = 1
-raccoon = 2
+possum = 1, raccoon = 2
 
 T = length of sequence of observables
 
