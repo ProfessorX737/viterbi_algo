@@ -15,7 +15,9 @@ possum = 1
 raccoon = 2
 
 T = length of sequence of observables
+
 K = size of set of all states
+
 N = size of set of all observables
 
 Input: 
